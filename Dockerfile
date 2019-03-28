@@ -1,5 +1,6 @@
 # Base
 FROM ubuntu:16.04
+MAINTAINER why2011btv <why2011btv@gmail.com>
 LABEL Description="Docker image for NS-3 Network Simulator and rl-gym (OpenAI)"
 
 ENV DEBIAN_FRONTEND noninteractive
