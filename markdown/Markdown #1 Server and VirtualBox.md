@@ -8,7 +8,7 @@
 
 http://10.1.1.12:7771/
 
-![](docker rl-gym.png)
+<img src="docker rl-gym.png" alt="drawing" width="1000"/>
 
 注释：
 
@@ -18,8 +18,7 @@ why@junnan-gpu:~$ sudo nvidia-docker run -d -p 7771:8888 jaimeps/rl-gym
 
 why@junnan-gpu:~$ sudo docker exec -it 26abd8a9f6df bash
 
-![](docker 7771.png)
-
+<img src="docker 7771.png" alt="drawing" width="1000"/>
 ## 第三种：在服务器（私网IP：10.1.1.12）上运行jupyter notebook（端口8809）
 
 https://amwork2017.55555.io:8809/
